@@ -17,6 +17,6 @@ ij_javascript_spaces_within_imports = true
 [**.{html,svelte}]
 tab_width = 4
 
-[**.json]
+[**.{json,yml}]
 indent_style = space
 indent_size = 2
