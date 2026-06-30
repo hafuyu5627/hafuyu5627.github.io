@@ -1,0 +1,11 @@
+.link-box {
+	@apply flex *:flex-initial mx-auto my-2 justify-center;
+
+	&>* {
+		@apply flex-initial m-2 p-2 rounded-full bg-gray-600 hover:bg-gray-400 transition-colors;
+
+		svg {
+			@apply size-8 fill-white;
+		}
+	}
+}

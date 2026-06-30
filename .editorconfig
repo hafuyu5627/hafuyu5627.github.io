@@ -1,0 +1,22 @@
+root = true
+
+[*]
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+[**.{js,html,css,tsx,scss,svelte}]
+indent_style = tab
+indent_size = tab
+tab_width = 2
+ij_typescript_spaces_within_object_literal_braces = true
+ij_typescript_spaces_within_object_type_braces = true
+ij_typescript_spaces_within_imports = true
+ij_javascript_spaces_within_imports = true
+
+[**.{html,svelte}]
+tab_width = 4
+
+[**.json]
+indent_style = space
+indent_size = 2
